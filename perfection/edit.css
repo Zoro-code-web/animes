@@ -1,0 +1,9 @@
+.sign{
+    height: 450px;
+}
+@media screen and (max-width:320px){
+     .sha button{
+      width: 100px;
+      margin-top: -10px;
+     }
+}

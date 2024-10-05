@@ -1,0 +1,2144 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background:linear-gradient(
+        to right,
+         purple 0%,
+          rgb(214, 32, 117),
+        purple
+    );
+}
+ .nav-bar li a{
+    text-decoration: none;
+    float:left;
+    padding-top: 20px;
+    padding-left: 50px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav-bar a:hover{
+    color: rgb(231, 30, 181);
+    font-weight: 400;
+    transition: 0.6s;
+    letter-spacing: 0.2em;
+    
+}
+.nav-bar li{
+    list-style-type: none;
+}
+span a{
+    float:left;
+    text-transform:capitalize;
+    text-decoration:underline;
+    padding-top: 20px;
+    padding-left: 60px;
+    font-size: 20px;
+    color:rgb(231, 30, 181);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.nav-bar span a:hover{
+    color: rgb(231, 30, 181);
+    font-weight: 400;
+    transition: 0.6s;
+    letter-spacing: 0.2em;
+
+}
+.pany .title{
+    /* font-size: 80px; */
+    color: rgb(0, 0, 0);
+    /* font-family:Arial, Helvetica, sans-serif; */
+    padding-top: 360px;
+    padding-left: 900px;
+}
+
+    
+.pany .title h1{
+    font-size: 110px;
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 30px;
+
+
+    
+}
+.pot{
+margin-left: -20px;
+    float:right;
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+    
+}
+.pot a{
+padding: 20px;
+color: white;
+}
+.pot a:hover{
+    color: rgb(212, 8, 168);
+}
+/* .pot a{
+    float: right;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 68px;
+    font-size: 25px;
+    margin-left: 90px;
+    margin-top: -45px;
+}
+.kul a:hover{
+    color: rgb(231, 30, 181);
+    transition: 0.5s;
+} */
+/* .van a{
+    float: right;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-right: -300px;
+    color: rgb(255, 255, 255);
+}
+.van a:hover{
+    color: rgb(231, 30, 181);
+    transition: 0.5s;
+
+}
+.you a{
+    float: right;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 68px;
+    font-size: 25px;
+    margin-top: -43px;
+}
+.you{
+    margin-right: 100px;
+
+}
+.you a:hover{
+    color: rgb(231, 30, 181);
+    transition: 0.5s;
+
+} */
+@keyframes slideinleft{
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+.title{
+    animation-name: slideinleft;
+    animation-duration: 2s;
+    animation-timing-function:ease ease-out;
+    animation-delay: 0s;
+    animation-iteration-count:1;
+
+}
+.title button{
+    font-size: 40px;
+    border: solid 6px black;
+    height: 70px;
+    width: 220px;
+    border-radius: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 15px;
+ background:rgb(0, 0, 0);
+    /* border: solid 6px black; */
+    transition: 0.6s;
+    cursor: pointer;
+    /* box-shadow: 2px 2px 20px rgb(0, 0, 0); */
+    color: rgb(228, 31, 146);
+    /* text-shadow: 2px 2px 10px; */
+
+}   
+.title button:hover{
+      box-shadow: 2px 2px 20px black;
+
+
+}
+
+/* button:hover{
+    background:rgb(0, 0, 0);
+    border: solid 6px black;
+    letter-spacing: 0.1em;
+    transition: 0.6s;
+    cursor: pointer;
+    box-shadow: 2px 2px 20px rgb(0, 0, 0);
+    color: rgb(230, 25, 144);
+} */
+.bin img{
+    float:left;
+    height: 620px;
+    width: 600px;
+    margin-top: -490px;
+    margin-left:180px;
+    border-radius: 100px;
+    box-shadow: 2px 2px 15px rgb(49, 48, 48);
+}
+.home{
+    border: solid 2px;
+    height: 60px;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    box-shadow: 2px 2px 20px;
+}
+.title h1{
+    width: 850px;
+    border-radius: 15px;
+    background: linear-gradient(
+    to right,
+    );
+}
+.ull{
+    background: rgb(0, 0, 0);
+    width: 100%;
+     margin-top: 170px;
+     height: 550px;
+     display: flex;
+ 
+}
+.bit{
+color: white;
+font-size: 50px;
+margin-left: -300px;
+text-align: center;
+}
+.bit h1{
+    margin-top: -500px;
+    margin-left: -90px;
+}
+/* .ull{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+} */
+.row img{
+    margin-top: -200px;
+    height: 750px;
+    
+}
+.ull p{
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    padding-left: 200px;
+    margin-top: 170px;
+}
+
+.font{
+    margin-top: -25px;
+    font-size: 70px;
+    padding: 98px;
+}
+.font a{
+    color: black;
+    margin-top: 50px;
+     float: right;
+}
+.font a:hover{
+    color: white;
+    text-shadow: 2px 2px 30px;
+    transition: 0.6s;
+}
+
+.mon{
+    border: solid white;
+    width: 600px;
+    height: 350px;
+    margin-left: 20px;
+    border-radius: 20px;
+    /* background: rgb(255, 255, 255); */
+    /* box-shadow:rgb(119, 117, 117) .1px 0.1px 5px; */
+    margin-top: 540px;
+    transition: 0.5s;
+}
+.not{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+    
+.bars{
+    border: solid none;
+    height: 200px;
+    border-radius: 200px;
+    width: 200px;
+    margin-left:5%;
+    margin-top: 20px;
+    background: url(images/IMG-20240716-WA0013.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.mon h1{
+ text-align:center;
+ margin-top: -190px;
+ font-size: 50px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ padding-left: 90px;
+ 
+}
+.nil p{
+    font-size: 20px;
+    margin-top:-60px ;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.job{
+    border: solid white;
+    width: 600px;
+    height: 350px;
+    border-radius: 20px;
+    /* background: white; */
+    /* box-shadow:rgb(119, 117, 117) .1px 0.1px 5px; */
+    margin-top: 540px;
+    transition: 0.5s;
+    margin-left: 1px;
+  
+}
+.job:hover{
+ background: black;
+    border: solid rgb(0, 0, 0);
+    color: white;
+}
+.mon:hover{
+    background: black;
+    border: solid black;
+    color: white;
+}
+.bals{
+    border: solid none;
+    height: 200px;
+    border-radius: 200px;
+    width: 200px;
+    margin-left:5%;
+    margin-top: 20px;
+    background: url(images/IMG-20240716-WA0010.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.job h1{
+ text-align:center;
+ margin-top: -190px;
+ font-size: 50px;
+ padding-left: 20px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+ 
+}
+.pil p{
+    font-size: 20px;
+    margin-top:37px ;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.not{
+    display: flex;
+    margin-top: -500px;
+}
+.work {
+    text-align: center;
+    margin-top: 420px;
+}
+.work h1{
+    color: rgb(221, 15, 169);
+    font-size: 25px;
+  padding-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mik p{
+ margin-top: -20px;
+
+
+
+
+
+
+
+}
+.mat{
+    padding-bottom: 60px;
+text-align: center;
+color: rgb(255, 94, 0);
+}
+.star{
+    margin-top: 1px;
+    text-align: center;
+    color: rgb(255, 94, 0);  
+}
+.itar{
+    margin-top: -5px;
+    text-align: center;
+    color: rgb(255, 94, 0);  
+}
+.bob{
+    border: solid white;
+    width: 585px;
+    height: 350px;
+    border-radius: 20px;
+    /* background: white; */
+    /* box-shadow:rgb(119, 117, 117) .1px 0.1px 5px; */
+    margin-top: 540px;
+    transition: 0.5s;
+    margin-left: 3.3px;
+
+}
+.bob:hover{
+  background: black;
+    border: solid rgb(0, 0, 0);
+    color: white;
+}
+.tals{
+    border: solid none;
+    height: 200px;
+    border-radius: 200px;
+    width: 200px;
+    margin-left:5%;
+    margin-top: 20px;
+    background: url(images/IMG-20240716-WA0011.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bob h1{
+ text-align:center;
+ margin-top: -190px;
+ font-size: 50px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ padding-left: 30px;
+ 
+}
+.mil p{
+    font-size: 20px;
+    margin-top:40px ;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.bot{
+    border: solid white;
+    width: 600px;
+    height: 350px;
+    margin-left: -1830px;
+    border-radius: 20px;
+    background: white;
+    box-shadow:rgb(129, 127, 127) .1px 0.1px 5px;
+    margin-top: 910px;
+    transition: 0.5s;
+}
+.tams{
+    border: solid none;
+    height: 200px;
+    border-radius: 200px;
+    width: 200px;
+    margin-left:5%;
+    margin-top: 20px;
+    background: url(images/IMG-20240716-WA0011.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bot h1{
+ text-align:center;
+ margin-top: -190px;
+ font-size: 50px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+.mig p{
+    font-size: 25px;
+    margin-top:10px ;
+    margin-left: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.otar{
+    margin-top: 20px;
+    margin-left: 70px;
+    color: rgb(255, 94, 0);  
+}
+.class{
+    background: rgb(255, 255, 255);
+    margin-top: -35px;
+    height: 600px;
+}
+.work h2{
+    padding-left: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+.ban{
+    width: 650px;
+    margin-left: 40%;
+    align-items: center;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    border-radius: 10px;
+    height: 400px;
+}
+.cum{
+padding: 0;
+margin: 0;
+justify-content: center;
+display: flex;
+background-position: center;
+background-size: cover;
+ height: 52vh;
+ width: 100%;
+ margin-bottom: -54px;
+ 
+}
+.pit img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-top: -25px;
+     cursor: pointer;
+}
+
+.cho{
+background:black;
+width: 500px;
+margin-top: 20px;
+border: solid rgb(0, 0, 0) ;
+background-position: center;
+background-size: cover;
+backdrop-filter: blur(7px);
+border-radius: 10px;
+height: 400px;
+box-shadow: 2px 2px 10px black;
+}
+.tir{
+    text-align: center;
+    padding: 30px;
+}
+.tir h1{
+    font-size: 40px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pos{
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+.pos button{
+    height: 70px;
+    width: 370px;
+    font-size: 25px;
+    background:linear-gradient(
+    to right,
+    rgb(238, 8, 180) 20%,
+    purple,
+    rgb(238, 8, 180)
+);
+border-radius: 10px;
+    border: solid black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cas{
+    justify-content: center;
+    display: flex;
+    padding: 8px;
+
+}
+.cas button{
+height: 50px;
+width: 260px;
+font-size: 18px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background:linear-gradient(
+    to right,
+    rgb(238, 8, 180) 20%,
+    purple,
+    rgb(238, 8, 180)
+);
+border-radius: 10px;
+border: solid rgb(0, 0, 0);
+color: white;
+}
+.lad{
+    justify-content: center;
+    display: flex;
+    padding: 8px;
+}
+.lad button{
+height: 40px;
+width: 310px;
+font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+background:linear-gradient(
+    to right,
+    rgb(238, 8, 180) 20%,
+    purple,
+    rgb(238, 8, 180)
+);
+border: solid black;
+color: white;
+border-radius: 10px;
+}
+.pit{
+    justify-content: center;
+    display: flex;
+    padding: 15px;
+}
+.pit button{
+    height: 30px;
+    width: 150px;
+    background: white;
+    border: solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+.pit a{
+    font-size: 20px;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.kim{
+    padding: 0%;
+    margin: 0%;
+    background: rgb(255, 255, 255);
+    margin-top: 0px;
+    height: 570px;
+    justify-content: center;
+    display: flex;
+}
+.air h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.air input{
+    padding: 20px;
+    width: 800px;
+    margin-top: 20px;
+    color: black;
+    border-radius: 10px;
+    border: solid white;
+    box-shadow: 2px 2px 10px rgb(133, 130, 130);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jik input{
+    height: 70px;
+}
+.kid button{
+   margin-left: 20.5pc;
+   height: 50px;
+   color: white;
+   width: 200px;
+   font-size: 25px;
+   margin-top: 30px;
+   background: rgb(233, 5, 165);
+   border: solid 3px rgb(233, 5, 165);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.kid button:hover{
+    background:white;
+    transition: 0.4s;;
+    color: rgb(233, 5, 165);
+}
+.mint{
+    background: rgb(3, 3, 3);
+    width: 100%;
+    height: 700px;
+}
+.rat h1{
+color: white;
+text-align: center;
+padding-top: 100px;
+font-size: 35px;
+}
+.las{
+    border: solid white;
+    background: white;
+    height: 80px;
+    width: 40px;
+    border-radius: 100px;
+    margin-left: 600px;
+    margin-top: 50px;
+}
+.las:hover{
+    background: rgb(247, 6, 147);
+    border: solid rgb(0, 0, 0);
+}
+.las span{
+    font-size: 30px;
+    justify-content:center;
+    display: flex;
+    margin-top: 25px;
+}
+.las h1{
+    margin-top: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.rut{
+    border: solid white 1px;
+    height: -5px;
+    width: 258px;
+    margin-top: -20px;
+    margin-left: 43px;
+}
+.bat{
+    border: solid white;
+    background: white;
+    height: 80px;
+    width: 40px;
+    border-radius: 100px;
+    margin-top: -4.5%;
+    margin-left: 49%;
+
+}
+.bat span{
+ justify-content: center;
+ display: flex;
+ font-size: 30px;
+ margin-top: 60%;
+
+}
+.bat:hover{
+    background: rgb(247, 6, 147);
+    border: solid black;
+}
+.lord{
+    border: solid white;
+    background: white;
+    height: 85px;
+    width: 40px;
+    border-radius: 100px;
+    margin-top: -4.5%;
+    margin-left: 65%;
+   
+}
+.lord h1{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.lord span{
+ justify-content: center;
+ display: flex;
+ font-size: 30px;
+ margin-top: 65%;
+ color: black;
+}
+
+.hat{
+    border: solid white 1px;
+    height: -5px;
+    width: 248px;
+    margin-top: -25px;
+    margin-left: -253px;
+
+}
+.lord:hover{
+    background: rgb(247, 6, 147);
+    border: solid rgb(0, 0, 0);
+}
+.loc button{
+    height: 55px;
+   font-size: 30px;
+   margin-top: 20px;
+   width: 250px;
+   border-radius: 5px;
+   background:p;
+   display: flex;
+   justify-content: center;
+   border: solid black;
+
+}
+.loc i{
+    padding: 15px;
+    margin-top: -5px;
+    color: black;
+}
+.loc{
+    justify-content: center;
+    display: flex;
+}
+.loc i:hover{
+ color: rgb(240, 12, 190);
+ cursor: pointer;
+margin-top: 0.1px;
+transition: 0.4s;
+text-shadow: 1px 1px 3px;
+
+}
+.loc h1{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.bat h1{
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+    display:flex;
+    justify-content: center;
+}
+.vak h1{
+    color: white;
+    text-align: center;
+    /* justify-content: center; */
+    margin-top: 180px;
+    font-size: 30px;
+}
+.oil{
+  border: solid white 2px;
+  width:100%;
+  align-items: center;
+  display:inline-block;
+  justify-content: center;
+  margin-top: 20px;
+}
+.yig h1{
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 23px;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sharp a{
+  font-size: 30px;
+  margin-top: -5px;
+  color: white;
+}
+.sharp a:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 2px 10px;
+    transition: 0.3s ease-in-out;
+    font-size: 33px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:2560px){
+
+    .kim{
+        margin-top: -00px;
+    }
+    .las{
+        margin-left: 600px;
+    }
+    .bat{
+        margin-top: -85px;
+        margin-left:900px;
+    }
+    .lord{
+        margin-top: -83px;
+        margin-left: 1196px;
+    }
+    
+ 
+    
+
+    
+}
+@media screen and (max-width: 1440px){
+    .bin img{
+     margin-left:20px;
+     height: 540px;
+     width: 550px;
+    }
+    .pany .title h1{
+        margin-left:-318px;
+        /* background: blue; */
+      font-size: 80px;
+    
+        margin-top: -70px;
+    }
+    .nav-bar li a{
+        padding-left: 50px;
+   
+       }
+       .title button{
+      margin-top: 5px;
+        margin-left:-310px;
+    }
+    .nil p{
+     font-size: 20px;
+    }
+    .mon h1{
+        font-size: 30px;
+        margin-top: -140px;
+
+    }
+    .mat{
+        padding-left: 80px;
+    }
+    .pil p{
+        font-size: 20px;
+    }
+    .job h1{
+        font-size: 30px;
+        margin-top: -146px;
+        padding-left: 75px;
+    }
+    .star{
+       padding-left: 80px;
+    }
+
+    .mil p{
+        font-size: 20px;
+    }
+    .bob h1{
+        font-size: 30px;
+        margin-top: -146px;
+        padding-left: 96px;
+    }
+    .itar{
+        padding-left: 90px;
+    }
+    .las{
+        margin-left: 395px;
+    }
+    .bat{
+        margin-top: -85px;
+        margin-left:700px;
+    }
+    .lord{
+        margin-top: -83px;
+        margin-left: 995px;
+    }
+    .ull p{
+        font-size: 21.5px;
+    }
+    .cho{
+        margin-top: 4px;
+    }
+    .kim{
+        margin-top: -21px;
+    }
+  
+ }
+ @media screen and (max-width:1200px){
+
+ .pany .title h1{
+  margin-left: -350px;
+  font-size: 80px;
+  /* background: rgb(0, 255, 234);       */
+        
+ }
+ .title button{
+    margin-top: 5px;
+    margin-left:-350px;
+}
+ .bin img{
+    margin-left:20px;
+    height: 500px;
+    width: 500px;
+    margin-top: -37%;
+   }
+   .ull p{
+    font-size: 18px;
+    padding-left: 20px;
+    margin-top: 260px;
+   }
+   .bit h1{
+    /* margin-left: -20px; */
+    margin-right: 180px;
+    margin-top: -420px;
+   }
+   .class{
+    margin-top: -115px;
+   }
+   .mon h1{
+    font-size: 20px;
+    margin-top: -153px;
+   }
+   .job h1{
+    font-size: 20px;
+    margin-top: -153px;
+   }
+   .mon h1{
+    font-size: 20px;
+    margin-top: -153px;
+   }
+   .bob h1{
+    font-size: 20px;
+    margin-top: -153px;
+   }
+   .cho{
+    margin-top: 7px;
+   }
+   .las{
+    margin-left: 270px;
+   }
+   .bat{
+    margin-left: 570px;
+
+   }
+   .lord{
+    margin-left: 865px;
+   }
+   
+   
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px){
+    .pany .title h1{
+        margin-left: -390px;
+        font-size: 57px;
+        /* background: blue; */
+    
+        
+        
+    }
+    /* .kim{
+        margin-top: 20px;
+    } */
+    .bin img{
+        margin-left:20px;
+        height: 450px;
+        width: 440px;
+        margin-top: -37%;
+       }
+       .title button{
+        margin-top: 5px;
+        margin-left:-390px;
+    }
+    .row img{
+        height: 600px;
+        width: 460px;
+        margin-top: -150px;
+    }
+    .ull p{
+        padding: 10px;
+        font-size: 18px;
+        margin-top: 140px;
+    }
+    /* .class{
+        margin-top: -920px;
+    } */
+    .ull{
+        height: 450px;
+        padding-top: -80px;
+    
+    }
+    .class{
+        margin-top: -155px;
+    }
+    .bit h1{
+        padding: 20px;
+        margin-left: 10px;
+    }
+    .mon h1{
+        margin-left: 80px;
+        margin-top: -155px;
+    }
+   
+    .mat{
+        margin-left: 80px;
+        margin-top: 10px;
+    }
+    
+    .nil p{
+        margin-top: -25px;
+    }
+    .job h1{
+        margin-left: 70px;
+        margin-top: -155px;
+    }
+    .star{
+        margin-left: 70px;
+        margin-top: 10px;
+    }
+    .bob h1{
+        margin-left: 70px;
+        margin-top: -155px;
+    }
+    .itar{
+        margin-left: 70px;
+        margin-top: 10px;
+    }
+    .las{
+        margin-left: 195px;
+    }
+    .bat{
+        margin-top: -85px;
+        margin-left:490px;
+    }
+    .lord{
+        margin-top: -83px;
+        margin-left: 785px;
+    }
+    .cho{
+        margin-top: 9px;
+    }
+    .kim{
+        margin-top: -20px;
+    }
+    .font{
+        font-size: 60px;
+        margin-right: -60px;
+        margin-top: -40px;
+     }
+}
+@media screen and (max-width:768px){
+    .pany .title h1{
+        background: blue;
+        font-size: 40px;
+        margin-left: -750px;
+        text-align: center;
+        margin-top: -100px;
+        /* background: blue; */
+    }
+    .font{
+        font-size: 50px;
+        margin-top: 20px;
+        margin: -50px;
+    }
+    .nav-bar li a{
+        font-size: 14px;
+        padding: 18px;
+        padding-left: 30px;
+        margin-top: 4px;
+        
+    }
+    .row img{
+        width: 350px;
+    }
+    .pot{
+        font-size: 20px;
+    }
+    .nav-bar span a{
+        font-size: 16px;
+        padding-left: 20px;
+    }
+    .bin img{
+        margin-left:20px;
+        height: 400px;
+        margin-top: -320px;
+        width: 380px;
+       }
+       .title button{
+        margin-top: 2px;
+        margin-left:-435px;
+    }
+    .mon h1{
+        font-size: 20px;
+        margin-top: -115px;
+        margin-left: -85px;
+    }
+    .mat{
+        font-size: 13px;
+        margin-left: -70px;
+        margin-top: 50px;
+    }
+    .nil p{
+        font-size: 15px;
+        margin-top: -50px;
+    }
+    .ull img{
+        height: 470px;
+        margin-top: -120px;
+    }
+    .ull{
+        height: 350px;
+    }
+    .ull p{
+        font-size: 12px;
+        margin-top: 130px;
+        padding: 0px;
+        padding-left: 20px;
+    }
+    .bit h1{
+        /* margin-left: -2840px; */
+        padding: 200px;
+        font-size: 80px;
+        margin-top: -510px;
+        margin-left: 120px;
+    }
+    .bars{
+        height: 160px;
+        width: 100px;
+        margin-left: 55px;
+    }
+    .job h1{
+        font-size: 20px;
+        margin-top: -115px;
+        margin-left: -70px;
+    }
+    .star{
+        font-size: 13px;
+        margin-left: -70px;
+        margin-top: 50px;
+    }
+    .pil p{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .bals{
+        height: 160px;
+        width: 100px;
+        margin-left: 55px;
+    }
+    .bob h1{
+        font-size: 20px;
+        margin-top: -118px;
+        margin-left: -99px;
+    }
+    .itar{
+        font-size: 13px;
+        margin-left: -80px;
+        margin-top: 50px;
+    }
+    .mil p{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .tals{
+        height: 160px;
+        width: 100px;
+        margin-left: 55px;
+    }
+     .class{
+        margin-top: -401px;
+     }
+    .las{
+        margin-left: 60px;
+    }
+    .sharp a{
+      font-size: 20px;
+      margin-left: -45px;
+      margin-top: -2px;
+    }
+    .bat{
+        margin-top: -85px;
+        margin-left:350px;
+    }
+    .lord{
+        margin-top: -83px;
+        margin-left: 645px;
+    }
+    .cho{
+        margin-top: 8px;
+        
+    }
+    .sharp a:hover{
+        font-size: 25px;
+    }
+    .kim{
+        margin-top: -20px;
+    }
+     .kim input{
+        width: 550px;
+     }
+     .kid button{
+        margin-left: 180px;
+        font-weight: 800;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+     }
+}
+@media screen and (max-width: 576px){
+
+    .pany .title h1{
+        /* background: blue; */
+        font-size: 30px;
+        margin-left: -905px;
+        /* text-align: center; */
+        margin-top: -170px;
+        /* background: rgb(255, 0, 55); */
+    }
+    .bin img{
+        height: 300px;
+        width: 285px;
+        margin-left: 10px;
+        margin-top: -290px;
+
+    }
+
+    .title button{
+        margin-top: 2px;
+        margin-left:-545px;
+        font-size: 30px;
+        width: 130px;
+        height: 50px;
+    }
+    .ull p{
+        font-size: 9px;
+        padding: -20px;
+    }
+    .bit h1{
+        font-size: 50px;
+        margin-top: -477px;
+        margin-left: 140px;
+    }
+   .not{
+    margin-right: 5px;
+   }
+   .bars{
+    margin-left: 30px;
+   }
+   .mik p{
+    font-size: 12px;
+   }
+   .tals{
+    margin-left: 30px;
+   }
+   .mil p{
+    font-size: 12px;
+   }
+   .bals{
+    margin-left: 30px;
+   }
+   .pil p{
+    font-size: 12px;
+   }
+.bob h1{
+    margin-top: -100px;
+}
+.air input{
+    width: 450px;
+}
+.kid button{
+    margin-left: 140px;
+}
+.las{
+    margin-left: 260px;
+}
+.nav-bar li a{
+    font-size: 13px;
+    margin-top:18px;
+    padding-left: 10px;
+    padding: 9px;
+}
+.nav-bar span a{
+    font-size: 15px;
+    margin-top: 14px;
+    margin-left: 20px;
+    padding-left: -20px;
+    padding: 10px;
+}
+.font a{
+    font-size: 40px;
+    
+}
+
+.rut{
+    height: 310px;
+    width: 0px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+ .las h1{
+    margin-top: -285px;
+    border: solid rgb(0, 0, 0);
+    width: 150px;
+    margin-left: -55px;
+    background: black;
+ }
+ .bat{
+    margin-top: 90px;
+    margin-left: 263px;
+ }
+ .cat{
+    margin: -454px;
+    height: 190px;
+    width: 0px;
+    
+ }
+ .bat h1{
+    border: solid rgb(0, 0, 0);
+    width: 290px;
+    height: 20px;
+    margin-left: -125px;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-top:780px;
+ }
+ .lord{
+    margin-top: 90px;
+    margin-left: 262px;
+ }
+ .lord h1{
+    margin-top: 0px;
+ }
+ .sharp a:hover{
+    font-size: 20px;
+}
+ .hat{
+    height: 30px;
+    width:0px;
+    margin-left: 18px;
+    margin-top: 30px;
+ }
+ .mint{
+    height: 1070px;
+ }
+ .pot a{
+    font-size: 15px;
+    padding: 12px;
+
+ }
+ .sharp a{
+    font-size: 18px;
+    margin-top: 5px;
+ }
+}
+
+
+
+@media screen and (max-width:480px){
+    .pany .title h1{
+        /* background: blue; */
+        font-size: 26px;
+        margin-top: -220px;
+        
+        margin-left: -1010px;
+    }
+    .bin img{
+        height: 200px;
+        width: 200px;
+        margin-left: 10px;
+        margin-top: -290px;
+
+    }
+    .sharp a{
+        font-size: 15px;
+        margin-top: -33px;
+    }
+    .sharp a:hover{
+        font-size: 20px;
+    }
+    
+    .title button{
+        margin-top: 2px;
+        margin-left:-659px;
+        height: 30px;
+        font-size: 20px;
+        width: 140px;
+    }
+    .ull{
+        margin-top: -10px;
+        height: 300px;
+        
+    }
+    .ull p{
+        font-size:7.7px;
+        margin-top: 70px;
+        padding-left: 30px;
+        padding: 1px;
+        margin-left: 20px;
+        
+        
+    }
+    .row img{
+        height: 300px;
+        width: 220px;
+        margin-top: -76px;
+    }
+    .bit h1{
+        /* margin-top:-60px ; */
+        font-size: 30px;
+        margin-top:-295px;
+        padding: 30px;
+        padding-left:170px;
+    }
+    .class{
+        margin-top: -295px;
+        height: 1470px;
+        
+    }
+    .mon{
+        margin: -200px;
+        margin-top: -1050px;
+        height: 370px;
+        width: 340px;
+
+    }
+    .not{
+        float: right;
+        margin: 10px;
+        margin-top: 50px;
+    }
+    .mon h1{
+        margin-top: -100px;
+    }
+    
+    .bars{
+     margin-left: 60px;
+     width: 210px;
+     height: 200px;
+     
+    }
+    .job{
+        margin-top: 10px;
+        margin-left: -420px;
+        height: 370px;
+        width: 340px;
+        margin: -150px;
+    }
+    .bals{
+        margin-left: 70px;
+        width: 200px;
+        height: 200px;
+    }
+    .job h1{
+        margin-top: -99px;
+    }
+    .bob{
+        margin-top: 830px;
+        margin-left: -190px;
+        width: 340px;
+    }
+    .tals{
+        margin-left: 70px;
+        width: 200px;
+        height: 200px;
+    }
+    .bob h1{
+        margin-top: -86px;
+        padding-left: -90px;
+    }
+    .cho{
+        width: 370px;
+        height: 400px;
+        margin-top: 20px;
+    }
+    .kim{
+        margin-top: 18px;
+        height: 440px;
+    }
+    .air input{
+        width: 300px;
+    }
+    .kid button{
+    margin-left: 80px;
+    }
+    .las{
+        margin-left: 200px;
+    }
+    .rut{
+        height: 310px;
+        width: 0px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+     .las h1{
+        margin-top: -285px;
+        border: solid rgb(0, 0, 0);
+        width: 150px;
+        margin-left: -55px;
+        background: black;
+     }
+     .bat{
+        margin-top: 90px;
+        margin-left: 203px;
+     }
+     .cat{
+        margin: -454px;
+        height: 190px;
+        width: 0px;
+        
+     }
+     .bat h1{
+        border: solid rgb(0, 0, 0);
+        width: 290px;
+        height: 20px;
+        margin-left: -125px;
+        background: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        margin-top:780px;
+     }
+     .lord{
+        margin-top: 90px;
+        margin-left: 202px;
+     }
+     .lord h1{
+        margin-top: 0px;
+     }
+     .hat{
+        height: 30px;
+        width:0px;
+        margin-left: 18px;
+        margin-top: 30px;
+     }
+     .mint{
+        height: 1070px;
+     }
+     .font{
+        font-size: 30px;
+        margin-right: -70px;
+        margin-top: -99px;
+     }
+    .nav-bar li a{
+        font-size: 10px;
+        margin-top:-20px;
+        padding-left: 10px;
+        padding: 9px;
+    }
+    .nav-bar span a{
+        font-size: 12px;
+        margin-top: -25px;
+        margin-left: 70px;
+        /* padding-left: -20px; */
+        padding: 10px;
+    }
+     .home{
+        height: 50px;
+     }
+     .pot{
+        font-size: px;
+        /* padding: -10px; */
+        margin-top: 13px;
+     }
+     .pot i{
+        font-size: 13px;
+        padding: 3px;
+        margin-left: -28px;
+        /* margin-top: -220px; */
+
+     }
+     .nav-bar{
+        margin-left: -50px;
+        margin-top: 30px;
+     }
+
+}
+
+@media screen and (max-width:425px){
+    .pany .title h1{
+        /* background: blue; */
+        font-size:19px;
+        margin-top: -220px;
+        
+        margin-left: -1030px;
+    }
+    .bin img{
+        height: 200px;
+        width: 200px;
+        margin-left: 10px;
+        margin-top: -290px;
+
+    }
+    .title button{
+        margin-top: 2px;
+        margin-left:-645px;
+        height: 30px;
+        font-size: 17px;
+        width: 80px;
+    }
+    .ull{
+        margin-top: -10px;
+        height: 312px;
+        
+    }
+    .ull p{
+        font-size:7px;
+        margin-top: 80px;
+        /* padding-left: 0px; */
+        padding: -80px;
+        
+        
+    }
+    .row img{
+        height: 320px;
+        width: 220px;
+        margin-top: -85px;
+    }
+    .bit h1{
+        /* margin-top:-60px ; */
+        font-size: 29px;
+        margin-top:-295px;
+        padding: 30px;
+        padding-left: 160px;
+    }
+    .class{
+        margin-top: -295px;
+        height: 1470px;
+    }
+    .mon{
+        margin: -200px;
+        margin-top: -1050px;
+        height: 370px;
+        width: 340px;
+
+    }
+    .not{
+        float: right;
+        margin-left: 70px;
+        margin-top: 50px;
+    }
+    .mon h1{
+        margin-top: -100px;
+    }
+    
+    .bars{
+     margin-left: 60px;
+     width: 210px;
+     height: 200px;
+     
+    }
+    .job{
+        margin-top: 10px;
+        margin-left: -420px;
+        height: 370px;
+        width: 340px;
+        margin: -150px;
+    }
+    .bals{
+        margin-left: 70px;
+        width: 200px;
+        height: 200px;
+    }
+    .job h1{
+        margin-top: -99px;
+    }
+    .bob{
+        margin-top: 830px;
+        margin-left: -190px;
+        width: 340px;
+    }
+    .tals{
+        margin-left: 70px;
+        width: 200px;
+        height: 200px;
+    }
+    .bob h1{
+        margin-top: -86px;
+        padding-left: -90px;
+    }
+    .cho{
+        width: 370px;
+        height: 400px;
+    }
+    .kim{
+        margin-top: -190px;
+        height: 440px;
+    }
+    .air input{
+        width: 300px;
+    }
+    .kid button{
+    margin-left: 80px;
+    }
+    .las{
+        margin-left: 190px;
+    }
+    .rut{
+        height: 310px;
+        width: 0px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+     .las h1{
+        margin-top: -285px;
+        border: solid rgb(0, 0, 0);
+        width: 150px;
+        margin-left: -55px;
+        background: black;
+     }
+     .bat{
+        margin-top: 90px;
+        margin-left: 193px;
+     }
+     .cat{
+        margin: -454px;
+        height: 190px;
+        width: 0px;
+        
+     }
+     .bat h1{
+        border: solid rgb(0, 0, 0);
+        width: 290px;
+        height: 20px;
+        margin-left: -125px;
+        background: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        margin-top:780px;
+     }
+     .lord{
+        margin-top: 90px;
+        margin-left: 193px;
+     }
+     .lord h1{
+        margin-top: 0px;
+     }
+     .hat{
+        height: 30px;
+        width:0px;
+        margin-left: 18px;
+        margin-top: 30px;
+     }
+     .mint{
+        height: 1070px;
+     }
+     .font{
+        font-size: 30px;
+        margin-right: -60px;
+        margin-top: -90px;
+     }
+    .nav-bar li a{
+        font-size: 9px;
+        margin-top:-20px;
+        padding-left: 10px;
+        padding: 9px;
+    }
+    .nav-bar span a{
+        font-size: 12px;
+        margin-top: -25px;
+        margin-left: 48px;
+        /* padding-left: -20px; */
+        padding: 10px;
+    }
+     .home{
+        height: 50px;
+     }
+     .pot{
+        font-size: 10px;
+        padding: -10px;
+        margin-top: 19px;
+     }
+     .pot i{
+        /* padding: -10px; */
+        margin-left: -28px;
+        /* margin-top: -210px; */
+
+     }
+     .nav-bar{
+        margin-left: -50px;
+        margin-top: 30px;
+     }
+
+}
+
+@media screen and (max-width:400px){
+    .pany .title h1{
+        /* background: blue; */
+        font-size:18px;
+        margin-top: -220px;
+        
+        margin-left: -1030px;
+    }
+    .ull p{
+        font-size:6.9px;
+        /* margin-left: -90px; */
+        padding-left: -80px;
+        padding: -101px;
+    }
+    .ull img{
+    height: 285px;
+    margin-top: -50px;
+    }
+    .title button{
+        width:100px;
+        margin-left: -655px;
+    }
+    .mon{
+       width: 303px;
+       height: 312px;
+       margin-left: -120px;
+    }
+    .mon h1{
+        margin-top: -90px;
+    }
+    .bars{
+        height: 120px;
+        width: 120px;
+        margin-left: 90px;
+    }
+    .mik p{
+        font-size: 10px;
+    }
+
+   
+
+    .job{
+        width: 303px;
+        height: 312px;
+        margin-left: -110px;
+     }
+     .job h1{
+         margin-top: -90px;
+     }
+     .bals{
+         height: 120px;
+         width: 120px;
+         margin-left: 95px;
+     }
+     .pil p{
+         font-size: 10px;
+     }
+
+
+
+     .bob{
+        width: 303px;
+        height: 312px;
+        margin-left: -155px;
+     }
+     .bob h1{
+         margin-top: -90px;
+     }
+     .tals{
+         height: 120px;
+         width: 120px;
+         margin-left: 95px;
+     }
+     .mil p{
+         font-size: 10px;
+     }
+
+
+     .cho{
+        width: 350px;
+     }
+     .kid button{
+        margin-left: 75px;
+     }
+    .las{
+        margin-left: 169px;
+    }
+     .bat{
+        margin-left: 171px;
+     }
+     .lord{
+        margin-left: 170px;
+     }
+     .loc{
+        width: 160px;margin-left: 104px;
+     }
+     .font{
+        margin-top: -350px;
+     }
+
+
+}
+
+
+
+@media screen and (max-width: 360px){
+    .pany .title h1{
+        /* background: blue; */
+        font-size:18px;
+        margin-top: -220px;
+        
+        margin-left: -1080px;
+    }
+    .title button{
+        margin-left: -707px;
+    }
+    .bin img{
+        height: 160px;
+        width: 160px;
+        margin-top: -270px;
+    }
+   .ull{
+    padding-top: -20px;
+    /* margin-top: -210%; */
+   }
+   .pot a{
+    padding: -10px;
+    margin-top: 70px;
+   }
+   .pot{
+    margin-top: 15px;
+   }
+   .ull p{
+    font-size:-7px;
+     margin: -20px;
+     margin-top: 80px;
+     /* margin-left: -5px; */
+     padding-left: 27px;
+   }
+   .row img{
+    width: 170px;
+    height: 240px;
+    margin-top: -5px;
+   }
+   .bit h1{
+    margin-left: 185px;
+   }
+ 
+   .tals{
+    margin-left: 25px;
+   }
+
+   .mon{
+    width: 170px;
+    height: 270px;
+  margin-left:90px;
+   }
+   .bars{
+    
+        margin-left: 27px;
+       
+   }
+
+   .job{
+    width: 170px;
+    height: 270px;
+    margin-left: 27px;
+   }
+
+   .bals{
+    margin-left: 27px;
+   }
+   .bob{
+    width: 170px;
+    height: 270px;
+    margin-left:-19px;
+   }
+   .not{
+    margin-right: 40px;
+   }
+   .cho{
+    width: 300px;
+    margin-left: 0px;
+    height: 400px;
+   }
+  .air input{
+    width: 250px;
+  }
+  .kid button{
+    width: 120px;
+    font-size: 20px;
+    margin-left: 87px;
+  }
+  .las{
+    margin-left: 160px;
+  }
+  .bat{
+    margin-left: 160px;
+  }
+  .lord{
+    margin-left: 160px;
+  }
+  .kim{
+    margin-top: 20px;
+  }
+
+}
+@media screen and (max-width:320px) {
+    
+    .pany .title h1{
+        background: rgb(0, 255, 98);
+        font-size:15px;
+        margin-top: -220px;
+        
+        margin-left: -1090px;
+    }
+    .nav-bar li a{
+        font-size:7px;
+    }
+    /* .nav-bar span a{
+
+    } */
+     .bit h1{
+        margin-left: 175px;
+     }
+    .title button{
+        margin-left: -715px;
+    }
+    
+    .ull{
+        margin-top: -700px;
+    }
+    .not{
+        margin-right: 39px;
+    }
+    .cho{
+        width: 250px;
+        height: 350px;
+    }
+    .pos{
+        width: 190px;
+        margin-left: 20px;
+        /* height: 60px; */
+    }
+    .pos button{
+        font-size:19px;
+        height: 50px;
+    }
+    .pit img{
+        height: 60px;
+        margin-top: -20px;
+    }
+    .kim{
+        margin-top: -80px;
+    }
+    .las{
+        margin-left: 135px;
+    }
+    .bat{
+    margin-left: 135px;
+    }
+    .lord{
+        margin-left: 135px;
+    }
+    .loc{
+        margin-left: 73px;
+        /* justify-content: center;
+        display: flex; */
+    }
+    .pot {
+        /* font-size: px; */
+    margin-top: 18px;
+    font-size: 10px;
+    
+    }
+    .nav-bar span a{
+        font-size: 9px;
+        margin-top: -23px;
+    }
+    .bin img{
+        margin-top: -280px;
+    }
+.sharp a{
+    font-size: 7px;
+    margin-left: 150px;
+    margin-top: -z0px;
+}
+}
+@keyframes fadein{
+    from{
+         opacity:0;
+    }
+    to{
+         opacity:100;
+    }
+}
+body{
+    animation-name:fadein;
+    animation-duration: 2s;
+    animation-timing-function:ease ease-out;
+    animation-delay: 0s;
+    animation-iteration-count:1;
+
+}
+
+
+
+
+
+
+

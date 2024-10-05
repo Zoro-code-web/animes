@@ -1,0 +1,65 @@
+.kim{
+    margin-top: 200px;
+}
+.bye li a{
+    color: rgb(243, 13, 166);
+}
+
+@media screen and (max-width:480px){
+    .kim{
+        margin-top: 0px;
+        height: 480px;
+    }
+    /* .font {
+        font-size: 30px;
+        margin-top: -160px;
+        padding: 90px;
+    } */
+    .kid button{
+        margin-left: 190px;
+        width: 120px;
+        font-size: 20px;
+    }
+    .kid{
+        margin-left: -38px;
+    }
+    .pot{
+        display: none;
+    }
+    .nav-bar li a{
+        font-size: 15px;
+    }
+    .nav-bar span a{
+        font-size: 18px;
+    }
+}
+ @media screen and (max-width:768px){
+    .kid button{
+        margin-left: 190px;
+    }
+ }
+ @media screen and (max-width:576px) {
+    .kid button{
+        margin-left: 148px;
+    }
+    .kim{
+        margin-top: 50px;
+    }
+    
+ }
+ @keyframes fadein{
+    from{
+        transform: translateY(-400px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+body{
+    animation-name:fadein;
+    animation-duration: 2s;
+    animation-timing-function:ease ease-out;
+    animation-delay: 0s;
+    animation-iteration-count:1;
+
+}

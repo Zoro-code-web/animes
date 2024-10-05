@@ -1,0 +1,404 @@
+.bom img{
+    height: 620px;
+    width: 600px;
+    margin-top: -490px;
+    margin-left:180px;
+    border-radius: 100px;
+    box-shadow: 2px 2px 15px rgb(49, 48, 48);
+}
+.class{
+    margin-top: -350px;
+}
+.boy li a{
+    color: rgb(228, 18, 158);
+}
+
+.title button{
+    font-size: 40px;
+    border: solid 6px black;
+    height: 70px;
+    width: 220px;
+    border-radius: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 15px;
+ background:rgb(0, 0, 0);
+    /* border: solid 6px black; */
+    transition: 0.6s;
+    cursor: pointer;
+    /* box-shadow: 2px 2px 20px rgb(0, 0, 0); */
+    color: rgb(228, 31, 146);
+    /* text-shadow: 2px 2px 10px; */
+
+}   
+.title button:hover{
+      box-shadow: 2px 2px 20px black;
+
+
+}
+.class{
+    margin-top: -220px;
+}
+
+.mon{
+    margin-left: -770px;
+}
+
+
+/* button:hover{
+    background:rgb(0, 0, 0);
+    border: solid 6px black;
+    letter-spacing: 0.1em;
+    transition: 0.6s;
+    cursor: pointer;
+    box-shadow: 2px 2px 20px rgb(0, 0, 0);
+    color: rgb(230, 25, 144);
+} */
+/* .bin img{
+    float:left;
+    height: 620px;
+    width: 600px;
+    margin-top: -490px;
+    margin-left:180px;
+    border-radius: 100px;
+    box-shadow: 2px 2px 15px rgb(49, 48, 48);
+} */
+
+
+    
+
+@media screen and (max-width:1440px){
+    
+
+    .bin img{
+        margin-left:20px;
+        height: 540px;
+        width: 550px;
+       }
+       .pany .title h1{
+           margin-left:-318px;
+           background: blue;
+         font-size: 80px;
+       
+           margin-top: -70px;
+       }
+     
+          .title button{
+         margin-top: 5px;
+           margin-left:-310px;
+       }
+       .mon{
+        margin-left: -590px;
+       }
+  
+
+ 
+}
+@media screen and (max-width:1200px) {
+
+    .pany .title h1{
+        margin-left: -350px;
+        font-size: 80px;
+        background: rgb(0, 255, 234);      
+              
+       }
+       .title button{
+          margin-top: 5px;
+          margin-left:-350px;
+      }
+       .bin img{
+          margin-left:20px;
+          height: 500px;
+          width: 500px;
+          margin-top: -37%;
+         }
+         .class{
+            margin-top: -190px;
+         }
+         .mon{
+            margin-left: -510px;
+         }
+
+
+
+
+    
+}
+
+
+@media screen and (max-width:1024px){
+     .class{
+            margin-top: -20%;
+           }
+           /* .bom img{
+            margin-top: -350px;
+            margin-left: 90px;
+            height: 460px;
+            width: 440px;
+           } */
+          .pany .title h1{
+            background: blue;
+            margin-left: -360px;
+            font-size: 57px;
+            /
+           }
+           .title button{
+           margin-left: -359px;
+
+        
+    }
+    .mon{
+        margin-left: -510px;
+    }
+
+    }
+
+    @media screen and (max-width:768px){
+            
+        .pany .title h1{
+            background: rgb(0, 0, 0);
+            font-size: 40px;
+            margin-left: -750px;
+            text-align: center;
+            margin-top: -100px;
+            /* background: blue; */
+        }
+  
+        .row img{
+            width: 350px;
+        }
+         .title button{
+            margin-left: -430px;
+         }
+         .bin img{
+            margin-left:20px;
+            height: 400px;
+            margin-top: -323px;
+            width: 380px;
+           }
+     
+       .mon{
+       margin-left: -398px;
+    }
+    .bars{
+        margin-left: 65px;
+    }
+    .bals{
+        margin-left: 62px;
+    }
+    .class{
+        margin-top: -190px;
+    }
+}
+
+
+
+    @media screen and (max-width: 576px){
+
+        .pany .title h1{
+            background: rgb(121, 10, 10);
+            font-size: 30px;
+            margin-left: -905px;
+            /* text-align: center; */
+            margin-top: -170px;
+            /* background: rgb(255, 0, 55); */
+        }
+        .bin img{
+            height: 300px;
+            width: 285px;
+            margin-left: 10px;
+            margin-top: -290px;
+    
+        }
+        .title button{
+            margin-top: 2px;
+            margin-left:-545px;
+            font-size: 20px;
+            width: 130px;
+            height: 50px;
+        }
+        .mon{
+            margin-left: -280px;
+        }
+        .bars{
+            margin-left: 30px;
+        }
+        .bals{
+            margin-left: 35px;
+        }
+         .class{
+            margin-top: -280px;
+         }
+       
+
+ 
+    
+   
+
+    }
+    
+    @media screen and (max-width:480px){
+            
+        .pany .title h1{
+            background: blue;
+            font-size: 26px;
+            margin-top: -220px;
+            
+            margin-left: -1010px;
+        }
+        .bin img{
+            height: 200px;
+            width: 200px;
+            margin-left: 10px;
+            margin-top: -290px;
+    
+        }
+        
+        .title button{
+            margin-top: 2px;
+            margin-left:-659px;
+            height: 30px;
+            font-size: 20px;
+            width: 140px;
+        }
+        .bals{
+            margin-left: 75px;
+        }
+        .font {
+            font-size: 30px;
+            margin-top: -160px;
+            padding: 90px;
+        }
+        .bom{
+            margin-top: -120px;
+        }
+        .class{
+            margin-top: -360px;
+        }
+        .las{
+            margin-left: 210px;
+        }
+        .bat{
+            margin-left: 211px;
+        }
+
+        .lord{
+            margin-left: 211px;
+        }
+        .bars{
+            margin-left: 60px;
+        }
+        .not{
+            margin-right: 30px;
+        }
+        .pot{
+            display: none;
+        }
+        .nav-bar li a{
+            font-size: 18px;
+        }
+        .nav-bar span a{
+            font-size: 19px;
+        }
+
+    }
+    @media screen and (max-width:425px){
+        
+
+        .pany .title h1{
+            font-size: 23px;
+            margin-top: -230px;
+            margin-left: -1022px;
+            background-color: aqua;
+        }
+        .bom img{
+            height: 200px;
+            width: 200px;
+            margin-top: -480%;
+            margin-left: 9px;
+             
+    
+        }
+    
+        .bom{
+            margin-top: -120px;
+        }
+        .class{
+            margin-top: -360px;
+        }
+        .title button{
+            margin-top: 2px;
+            margin-left:-669px;
+            height: 30px;
+            font-size: 20px;
+            width: 140px;
+        }
+        .not{
+            margin-right: 1px;
+        }
+        .las{
+            margin-left: 180px;
+        }
+        .rut{
+            height: 310px;
+            width: 0px;
+            margin-left: 20px;
+            margin-top: 30px;
+        }
+         .las h1{
+            margin-top: -285px;
+            border: solid rgb(0, 0, 0);
+            width: 150px;
+            margin-left: -55px;
+            background: black;
+         }
+         .bat{
+            margin-top: 90px;
+            margin-left: 183px;
+         }
+         .cat{
+            margin: -454px;
+            height: 190px;
+            width: 0px;
+            
+         }
+         .bat h1{
+            border: solid rgb(0, 0, 0);
+            width: 290px;
+            height: 20px;
+            margin-left: -125px;
+            background: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            margin-top:780px;
+         }
+         .lord{
+            margin-top: 90px;
+            margin-left: 193px;
+         }
+         .lord h1{
+            margin-top: 0px;
+         }
+         .hat{
+            height: 30px;
+            width:0px;
+            margin-left: 18px;
+            margin-top: 30px;
+         }
+
+    }
+    @keyframes fadein{
+        from{
+            transform: translateY(-400px);
+        }
+        to{
+            transform: translateY(0px);
+        }
+    }
+    body{
+        animation-name:fadein;
+        animation-duration: 2s;
+        animation-timing-function:ease ease-out;
+        animation-delay: 0s;
+        animation-iteration-count:1;
+    
+    }
+    
